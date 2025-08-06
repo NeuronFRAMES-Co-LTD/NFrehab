@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/main.css" />
     <style>
       /* Consent Modal Styles */
@@ -70,7 +70,7 @@
   </head>
   <body>
     <div class="login-container" id="loginPage">
-      <img src="../images/nfl1.png" alt="logo" class="logo-img" />
+      <img src="images/nfl1.png" alt="logo" class="logo-img" />
       <input
         class="login-input"
         type="text"
@@ -89,7 +89,7 @@
     </div>
 
     <div class="login-container" id="registerPage" style="display: none">
-      <img src="../images/nfl1.png" alt="logo" class="logo-img" />
+      <img src="images/nfl1.png" alt="logo" class="logo-img" />
       <input
         class="login-input"
         type="text"
@@ -235,7 +235,7 @@
           return;
         }
         localStorage.setItem("nf_loggedInUser", username);
-        window.location.href = "../dashboard.html";
+        window.location.href = "dashboard.html";
       }
 
       function showRegister() {
